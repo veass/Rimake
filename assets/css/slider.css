@@ -1,0 +1,139 @@
+.popup-slider {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  z-index: 200;
+  }
+  
+  .metaslider {
+    z-index: 201 !important;
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .slides img{
+    pointer-events: none;
+  }
+  .slides li{
+    height: auto;
+    pointer-events: none;
+  }
+  .flex-next, .flex-prev {
+    opacity: 1 !important;
+  }
+  .boxclose{
+    float: right;
+    cursor: pointer;
+    position: relative;
+/* 	background: url(http://tympanus.net/Tutorials/CSSOverlay/images/cancel.png); */
+}
+
+@media only screen and (min-width : 1367px) {
+  .metaslider {
+    width: 1200px;
+    height: 500px;
+  }
+	.slides img {
+      height: 500px;
+    }
+	.boxclose{
+    width: 40px;
+    height: 40px;
+    margin-top: -44%;
+    margin-right: -21px;
+	}
+} 
+  @media only screen and (min-width : 1280px) and (max-width : 1366px) {
+    .metaslider {
+      width: 1000px;
+      height: 500px;
+    }
+	 .slides img {
+      height: 500px;
+    }
+	 .boxclose{
+    width: 40px;
+    height: 40px;
+    margin-top: -52%;
+    margin-right: -20px;
+	}
+
+  } 
+@media only screen and (min-width : 1000px) and (max-width : 1279px) {
+  .metaslider {
+    width: 800px;
+    height: 500px;
+  }
+  .slides img {
+    height: 500px;
+  }
+  .boxclose{
+  width: 40px;
+  height: 40px;
+  margin-top: -65%;
+  margin-right: -20px;
+  }
+} 
+@media only screen and (min-width : 800px) and (max-width : 999px) {
+  .metaslider {
+    width: 600px;
+    height: 400px;
+  }
+  .slides img {
+    height: 400px;
+  }
+	.boxclose{
+    width: 40px;
+    height: 40px;
+		margin-top: -70%;
+    margin-right: -20px;
+	}
+} 
+@media only screen and (min-width : 600px) and (max-width : 799px) {
+  .metaslider {
+    width: 500px;
+    height: 400px;
+  }
+  .slides img {
+    height: 400px;
+  }
+  .boxclose{
+  width: 40px;
+  height: 40px;
+  margin-top: -84.5%;
+  margin-right: -20px;
+}
+} 
+@media only screen and (min-width : 400px) and (max-width : 599px) {
+  .metaslider {
+    width: 350px;
+    height: 350px;
+  }
+  .slides img {
+    height: 350px;
+  }
+	.boxclose{
+		width: 30px;
+		height: 30px;
+		margin-top: -105%;
+		margin-right: -16px;
+	}
+} 
+@media only screen and (min-width : 320px) and (max-width : 399px) {
+  .metaslider {
+    width: 300px;
+    height: 300px;
+  }
+  .slides img {
+    height: 300px;
+  }	
+	.boxclose{
+		width: 30px;
+		height: 30px;
+		margin-top: -106%;
+		margin-right: -15px;
+	}
+} 
+

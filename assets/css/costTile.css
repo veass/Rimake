@@ -1,0 +1,40 @@
+.cost-tile {
+  display: block;
+  width: 100%;
+  background-image: url('../img/costs31.png');
+  background-size: cover;
+}  
+.contain-cost-tile{
+  width: 1280px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.naming-cost-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: 'Intro';
+  font-size: 36px;
+}
+.naming-cost-tile h2 {
+  color: #63676a;
+  font-family: 'IntroRegular' !important;
+  font-size: 31px;
+}
+.cost-table {
+  background-repeat: round;
+}
+tbody .row-2 .column-2,
+tbody
+.row-2 .column-3,
+tbody
+.row-2 .column-4 {
+font-size: 23px
+}
+tbody .row-2 .column-1 {
+    font-weight: 600;
+}

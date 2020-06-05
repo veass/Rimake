@@ -1,0 +1,153 @@
+/* 
+Theme Name: Remake
+ */
+ 
+/*
+=====================================================================
+*   Reamke v0.1 Default Stylesheet
+*   url: rimake.by
+*   25-06-2019
+=====================================================================
+ 
+ /* ------------------------------------------------------------------ */
+ 
+html, body {
+  min-width: 320px;
+}
+html {
+  height: auto;
+  width: 100%;
+}
+body { 
+  margin: 0;
+  height: auto;
+  background-color: rgb(241, 241, 241);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+ h2, h3 {
+  margin-block-start: 0.0;
+  margin-block-end: 0.0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+ }
+ p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin:0;
+}
+button {
+  height: 40px;
+  border-radius: 10px 10px 10px 10px !important;
+  -moz-border-radius: 10px 10px 10px 10px !important;
+  -webkit-border-radius: 10px 10px 10px 10px !important;
+  font-family: 'GothamPro';
+  border: 1px;
+}
+textarea {
+  resize: none;
+  border-radius: 10px 10px 10px 10px !important;
+  -moz-border-radius: 10px 10px 10px 10px !important;
+  -webkit-border-radius: 10px 10px 10px 10px !important;
+}
+
+.gradient {
+  background: rgba(81,184,101,1) !important;
+  background: -moz-linear-gradient(left, rgba(81,184,101,1) 0%, rgba(81,184,101,1) 40%, rgba(194,241,143,1) 100%) !important;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(81,184,101,1)), color-stop(40%, rgba(81,184,101,1)), color-stop(100%, rgba(194,241,143,1))) !important;
+  background: -webkit-linear-gradient(left, rgba(81,184,101,1) 0%, rgba(81,184,101,1) 40%, rgba(194,241,143,1) 100%) !important;
+  background: -o-linear-gradient(left, rgba(81,184,101,1) 0%, rgba(81,184,101,1) 40%, rgba(194,241,143,1) 100%) !important;
+  background: -ms-linear-gradient(left, rgba(81,184,101,1) 0%, rgba(81,184,101,1) 40%, rgba(194,241,143,1) 100%) !important;
+  background: linear-gradient(to right, rgba(81,184,101,1) 0%, rgba(81,184,101,1) 40%, rgba(194,241,143,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b865', endColorstr='#c2f18f', GradientType=1 );
+}
+
+label {
+  display: flex !important;
+  /* display: -webkit-box;  */
+  align-items: center !important;
+  height: 44px;
+}
+@media only screen and (max-width : 1297px) {
+  .left-result {
+    width: 100%;
+    padding-left: 100px;
+  }
+}
+a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+a {
+  text-decoration: none !important;
+  /*color: inherit !important;*/
+}
+ul li a:active {
+  text-decoration: none !important;
+}
+ul li a:focus {
+  color: #4cb050 !important;
+}
+
+.gradient .top h3{
+  color: white;         
+}
+.gradient .white-cost{
+  color: white;         
+}
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+input:focus {
+border-color: #4cb050;
+}
+
+/* Fonts */
+
+@font-face {
+	font-display: swap;
+	font-family: 'GothamPro';
+	src: url('assets/fonts/GothamPro.eot');
+	src: local('Gotham Pro '), local('GothamPro'),
+		url('assets/fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/GothamPro.woff') format('woff'),
+		url('assets/fonts/GothamPro.ttf') format('truetype');
+	/* font-weight: bold; */
+}
+ @font-face {
+	font-display: swap;
+	font-family: 'IntroRegular';
+	src: url('assets/fonts/IntroRegular.eot');
+	src: local('Intro Regular '), local('IntroRegular'),
+		url('assets/fonts/IntroRegular.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/IntroRegular.woff') format('woff'),
+		url('assets/fonts/IntroRegular.ttf') format('truetype');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'GothamPro Medium';
+	src: url('assets/fonts/GothamPro-Medium.eot');
+	src: local('GothamPro Medium '), local('GothamPro-Medium'),
+		url('assets/fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/GothamPro-Medium.woff') format('woff'),
+		url('assets/fonts/GothamPro-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'GothamPro Bold';
+	src: url('assets/fonts/GothamPro-Medium.eot');
+	src: local('GothamPro Bold '), local('GothamPro-Bold'),
+		url('assets/fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/GothamPro-Bold.woff') format('woff'),
+		url('assets/fonts/GothamPro-Bold.ttf') format('truetype');
+}
+
+.hidden {
+  overflow: hidden;
+}

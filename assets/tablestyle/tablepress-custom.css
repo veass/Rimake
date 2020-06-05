@@ -1,0 +1,67 @@
+.tablepress {
+	height: 770px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tablepress thead th {
+	background-color: #a5e661;
+	font-weight: 700;
+	vertical-align: middle;
+	height: 50px;
+	text-align: center;
+	font-family: 'GothamPro';
+	color: white;
+}
+
+.tablepress tbody td {
+	height: 50px;
+	text-align: center;
+	font-family: 'GothamPro';
+	color: #63676a;
+	vertical-align: middle;
+}
+
+tbody .column-1 {
+	text-align: left !important;
+	padding-left: 60px !important;
+}
+
+tbody .row-2 .column-1 {
+	color: black;
+}
+
+tbody .row-2 .column-2,
+tbody
+.row-2 .column-3,
+tbody
+.row-2 .column-4 {
+	font-weight: 700;
+}
+
+.tablepress td img {
+	width: 30px;
+}
+
+.tablepress tbody {
+	background-color: white;
+}
+
+.tablepress tbody td,
+.tablepress tfoot th {
+	border-top: 0 solid #ddd;
+}
+
+.tablepress .column-2,
+.tablepress
+.column-3,
+.tablepress
+.column-4 {
+	padding: 0;
+}
+
+.tablepress td,
+.tablepress th {
+	padding: 0;
+}

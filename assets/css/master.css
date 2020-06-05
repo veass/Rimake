@@ -1,0 +1,68 @@
+.master {
+  width: 100%;
+} 
+.contain-master {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  min-height: 275px;
+}
+.call-master{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  min-width: 200px;
+  max-width: 100%;
+  padding-left: 50px;
+  text-align: center;
+}
+.call-master span {
+  color: #ffffff;
+  font-family: 'IntroRegular';
+}
+.master-forms{
+  display: flex;
+  padding: 0px 0px 0px 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.center-form{
+  width: 81%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.form-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+.elem-form input {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+.access{
+  height: 44px;
+}
+.radius {
+  color: #ffffff !important;
+  border-radius: 10px 10px 10px 10px !important;
+  -moz-border-radius: 10px 10px 10px 10px !important;
+  -webkit-border-radius: 10px 10px 10px 10px !important;
+  background-color: #ff6600 !important;
+}
+label span{
+  font-family: 'GothamPro';
+  font-weight: 600;
+}
+.form-center > button:nth-child(3) {
+  font-family: 'GothamPro';
+}
+
+

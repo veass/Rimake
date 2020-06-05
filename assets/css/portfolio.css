@@ -1,0 +1,202 @@
+.portfolio { 
+  width: 100%;
+  max-height: 100%; 
+  background-image: url('../img/port1.png');
+  background-size: cover;
+} 
+.contain-portfolio {
+  width: 1280px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.boxs-portfolio{
+  height: auto;
+}
+.examples{
+  height: 128px;
+  display: table-cell;
+  vertical-align: middle ;
+}
+.examples h2{
+  color: #63676a;
+  font-family: 'IntroRegular' !important;
+  font-size: 36px;
+}
+.boxs{
+  display: flex;
+  flex-direction: row;
+  max-width: 1280px;
+  height: auto;
+  flex-wrap: wrap;
+}
+.boxs img {
+  height: 100%;
+  width: 100%;
+}
+.along {
+  width: 258px;
+}
+.four{
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.both {
+  display: flex;
+  flex-direction: row;
+  width: 530px;
+  height: 230px;
+}
+.elem-four{
+  overflow: hidden;      
+}
+.elem-four img {
+  width: 257px;
+}
+.l {
+  padding-top: 16px !important;
+}
+.ef {
+  margin: 0 0 0 16px;
+}
+.across {
+  height: 460px;
+  width: 442px;
+}
+.elem-across {
+  overflow: hidden;
+}
+.ea {
+  height: 215px;
+  margin-top: 15px;
+}
+.ee {
+  height: 230px;
+}
+.ee img {
+  width: 100%;
+}
+.features {
+  display: flex;
+  justify-content: center;
+}
+.features-company {
+  max-width: 100%;
+  width: 100%
+}
+.contein-features{
+  margin-top: 67px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-bottom: 70px;
+  width: 90%;
+}
+.img-tile{
+  min-width: 480px;
+  padding: 25px;
+  justify-content: center;
+  display: flex;
+}
+.naming-features{
+  position: relative;
+  height: 80px;       
+}
+.naming-features h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);  
+  color: #63676a;              
+  text-align: center;
+  font-family: 'IntroRegular' !important;
+  font-size: 31px;
+}
+.five-features{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+.elem-features{
+  width: 305px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-top: 27px;
+}
+.img-features{
+  min-width: 50px;
+  max-width: 50px;
+}
+.discription-features{
+margin-left: 20px;
+}
+.discription-features p{
+  margin-top: 10px;
+  font-size: 14px;
+  color:#87919a;
+}
+.special-p .discription-features p{
+  width: 85%;
+}
+.special-p{
+  width: 500px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.discription-features h3{
+  font-size: 16px;
+  font-family: 'GothamPro Bold';
+}
+.discription-features p{
+  font-family: 'GothamPro';
+}
+
+.along, .elem-four, .elem-across {
+  position: relative;
+}
+.hover-boxs {
+  display: none;
+  position: absolute;
+  top: 0;
+  background-color: rgba(46, 192, 33, 0.582);
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: 100%;
+  height: 100%;
+  height: -webkit-fill-available;
+}
+.discription {
+  padding: 30px;
+  height: inherit;
+}
+.discription-box {
+  color: white;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  right: 0;
+  margin: auto;
+}
+.discription-box > p {
+  font-family: 'GothamPro';
+}
+h4 {
+  font-family: 'GothamPro Medium';
+}
+.data-hover:hover > .hover-boxs { 
+  display: block ;
+}
+
+.faq-toggle .actives {
+  background-color: rgb(196, 183, 166) !important;
+}
+
+
+
