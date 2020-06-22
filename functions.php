@@ -18,6 +18,13 @@ add_theme_support( 'custom-logo', [
 	'header-text' => '',
 ] );
 
+add_action(
+    'after_setup_theme',
+    function() {
+        add_theme_support( 'html5', [ 'script', 'style' ] );
+    }
+);
+
 function style_theme(){
 	wp_enqueue_style( 'style', get_stylesheet_uri());
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css' );
