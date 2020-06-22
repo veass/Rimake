@@ -1,6 +1,6 @@
 <?php
 
-$path = "httpdocs/wp-admin/promocodes/";
+$path = "rimake.by/wp-admin/promocodes/";
 $idlist = unserialize(file_get_contents($path."idlist"));
 $idlistNew = array();
 

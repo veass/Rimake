@@ -77,7 +77,7 @@
 								<div class="calc description"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/no-circular-outlined-button.svg " alt=""><p>Плитка не входит<br/> в стоимость</p></div>
 							</div>
 							<div class="top white-cost">
-								<p ><span class="data-cost1"><?php echo $calc['car_spaces'] ?></span> руб/м<sup>2</sup></p>
+								<p ><span>от </span><span class="data-cost1"><?php echo $calc['car_spaces'] ?></span> руб/м<sup>2</sup></p>
 							</div>
 						</div>
 						<div class="elem-calc emhover ec-top2" data-cost2="">
@@ -93,7 +93,7 @@
 								<div class="calc description"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/no-circular-outlined-button.svg " alt=""><p>Плитка не входит<br/> в стоимость</p></div>
 							</div>
 							<div class="top white-cost">
-								<p><span class="data-cost2"><?php echo $calc['area_walking'] ?></span> руб/м<sup>2</sup></p>
+								<p><span>от </span><span class="data-cost2"><?php echo $calc['area_walking'] ?></span> руб/м<sup>2</sup></p>
 							</div>
 						</div>
 						<div class="elem-calc emhover ec-top ec-top2 gradient" data-cost3="">
@@ -109,7 +109,7 @@
 								<div class="calc description"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/no-circular-outlined-button.svg " alt=""><p>Плитка не входит<br/> в стоимость</p></div>
 							</div>
 							<div class="top white-cost">
-								<p ><span class="data-cost3"><?php echo $calc['ready_bottom'] ?></span> руб/м<sup>2</sup></p>
+								<p ><span>от </span><span class="data-cost3"><?php echo $calc['ready_bottom'] ?></span> руб/м<sup>2</sup></p>
 							</div>
 						</div>
 						

@@ -5,8 +5,6 @@ add_action('wp_ajax_nopriv_my_ajax', 'ajax_form' );
 add_action('wp_ajax_my_ajax', 'ajax_form' );
 add_action('wp_ajax_nopriv_ajax_email', 'ajax_email' );
 add_action('wp_ajax_ajax_email', 'ajax_email' );
-add_action('wp_ajax_nopriv_clear_cache', 'clearDbCache' ); // test;
-add_action('wp_ajax_clear_cache', 'clearDbCache' ); 		  // test;
 add_action('wp_ajax_nopriv_ajax_promo', 'ajax_promo' );
 add_action('wp_ajax_ajax_promo', 'ajax_promo' );
 add_action( 'init', 'register_post_types' );
@@ -31,7 +29,6 @@ function style_theme(){
 	wp_enqueue_style( 'portfolio', get_template_directory_uri() . '/assets/css/portfolio.css' );
 	wp_enqueue_style( 'master', get_template_directory_uri() . '/assets/css/master.css' );
 	wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/css/footer.css' );
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css' );
 	wp_enqueue_style( 'media-queries', get_template_directory_uri() . '/assets/css/media-queries.css' );
 	wp_enqueue_style( 'metaslider-css', plugins_url (). '/ml-slider/assets/sliders/flexslider/flexslider.css');
     wp_enqueue_style( 'slider', get_template_directory_uri() . '/assets/css/slider.css' );
@@ -93,7 +90,7 @@ if (!empty($_POST['phone']) && !empty($_POST['name']) ){
 	$msg .= "Ваши пожелания: ".$textarea. PHP_EOL;	
 		     
 	$mail_to = 'oletjago@yandex.ru';
-	$headers = 'From: Remake <ukladka@remake.by>' . "\r\n";
+	$headers = 'From: Rimake <ukladka@rimake.by>' . "\r\n";
 	if(wp_mail($mail_to, $thm, $msg, $headers)){
 			$response = 'Ваша заявка принята! Спасибо.';
 	}else
@@ -131,7 +128,7 @@ $emailpromo = $_POST['email'];
 		$subject  =  "Скидка от Rimake.by" ;
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/html; charset=utf-8\r\n";
-	    $headers .= 'From: Remake <ukladka@remake.by>' . "\r\n";
+	    $headers .= 'From: Rimake <ukladka@rimake.by>' . "\r\n";
      	global $discount;
 	
 		$message = '
