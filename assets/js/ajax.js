@@ -222,7 +222,6 @@ $(document).ready(function(){
         let disoff = setTimeout(function(){
           but.prop('disabled', false)
         },2000);
-        disoff();
     }
     })
     	
