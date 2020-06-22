@@ -4,12 +4,13 @@
 This site is adaptive, interactive and crossbrowser.
 
 ### Technology
-1.HTML5
-2.CSS3
-3.jQUERY
-4.AJAX
-5.WORDPRESS
-6.PHP
+
+1. HTML5
+2. CSS3
+3. jQUERY
+4. AJAX
+5. WORDPRESS
+6. PHP
 
 ### Used plugins
 
