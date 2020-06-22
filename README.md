@@ -15,7 +15,7 @@ This site is adaptive, interactive and crossbrowser.
 ### Used plugins
 
 1. Advanced Custom Fields - for creating irregular fields.
-2. MetaSlider - for selling images to client-side.
+2. MetaSlider - for sending images to the client-side.
 3. TablePress - for creating the table.
 
 
