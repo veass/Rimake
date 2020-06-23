@@ -1,7 +1,7 @@
 .portfolio { 
   width: 100%;
   max-height: 100%; 
-  background-image: url('../img/port1.png');
+  background-image: url('../img/port1.jpg');
   background-size: cover;
 } 
 .contain-portfolio {
